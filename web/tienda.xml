@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ * 
+ * Nombre: Igor Garrido Agudo 
+ * Fecha: 07/03/2024 
+ * Modulo: Lenguaje de marcas y sistemas de gestión de la información. 
+ * UD4
+ * Tarea: LMSGI04 Tarea de evaluación 02. XSLT
+ * Autoevaluación: https://docs.google.com/document/d/19hxAFfH2XxSQXj7nyAv0WwUW4usx6D4bUv85Euy0O0Y/edit?usp=sharing
+ * Publicación internet:
+ * 
+-->
+<?xml-stylesheet href="tienda.xsl" type="text/xsl"?>
+
+<club_voleibol>
+
+    <!-- Información de la tienda -->
+    <tienda ubicacion="Bilbao">
+        <articulo marca="Nike" foto="camiseta.jpg" cod="AB123456A">
+            <nombre>Camiseta oficial</nombre>
+            <descripcion>Camiseta oficial del club</descripcion>
+            <precio>29.99</precio>
+            <comentarios fecha="2023-07-01">Muy cómoda</comentarios>
+            <comentarios fecha="2023-05-22">Buena relación calidad precio</comentarios>
+        </articulo>
+        <articulo marca="Mizuno" foto="zapatilla.jpg" cod="AB123455A">
+            <nombre>Zapatillas mujer</nombre>
+            <descripcion>Zapatillas diseñadas para un agarre excepcional.</descripcion>
+            <precio>79.99</precio>
+            <comentarios fecha="2023-07-20">Increíble tracción, ideales para partidos intensos.</comentarios>
+        </articulo>
+        <articulo marca="Joma" foto="chaqueta.jpg" cod="AB123454A">
+            <nombre>Chaqueta hombre</nombre>
+            <descripcion>Chaqueta resistente al viento, ideal para entrenamientos al aire libre.</descripcion>
+            <precio>59.99</precio>
+            <comentarios fecha="2023-07-15">Diseño moderno y gran calidad, perfecta para climas fríos.</comentarios>
+        </articulo>   
+    </tienda>
+
+</club_voleibol>
